@@ -307,8 +307,11 @@ textarea{
 }
 
  @media screen and (max-width:1024px) {
-     body {
-         background-color: aqua;
+    body{ background: rgb(95,115,204);
+        background: linear-gradient(90deg, rgba(95,115,204,1) 0%, rgba(119,255,253,1) 39%, rgba(236,235,235,1) 73%);
+        
+    
+    
     }
 
     h3 {
@@ -328,9 +331,12 @@ textarea{
  }
 
  @media screen and (max-width:600px) {
-    body {
-        background-color: rgb(255, 186, 12);
+    body { background: rgb(95,115,204);
+        background: linear-gradient(90deg, rgba(95,115,204,1) 0%, rgba(119,255,253,1) 39%, rgba(236,235,235,1) 73%);
 
+
+    
+       
     }
 
     .header {
@@ -413,19 +419,29 @@ textarea{
     }
     
 
-    
+}
 
-
-
-
-
-
-
-
-
+.img-animacion {
+    animation-name: efecto;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 
 }
 
+@keyframes efecto{
+    fron {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+body{
+    background: rgb(95,115,204);
+background: linear-gradient(90deg, rgba(95,115,204,1) 0%, rgba(119,255,253,1) 39%, rgba(236,235,235,1) 73%);
+}
 
 
 
